@@ -13,7 +13,7 @@ WHERE idAuteur = 4;
 
 UPDATE titre
 SET idAuteur = NULL
-WHERE idAuteur = 3;
+WHERE idAuteur = 4;
 
 DELETE 
 FROM auteur
