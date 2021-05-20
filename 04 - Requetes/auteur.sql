@@ -10,9 +10,10 @@ FROM auteur
 WHERE idAuteur = 4;
 
 -- delete avec les FK
-DELETE 
-FROM Titre
-WHERE idAuteur = 4;
+
+UPDATE titre
+SET idAuteur = NULL
+WHERE idAuteur = 3;
 
 DELETE 
 FROM auteur
