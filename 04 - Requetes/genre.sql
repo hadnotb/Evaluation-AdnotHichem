@@ -10,11 +10,12 @@ FROM genre
 WHERE idGenre = 4 ;
 
 -- delete avec les FK
-Delete 
-From genre
-WHERE idGenre = 3;
+
 
 DELETE 
 FROM titre_genre
 WHERE idGenre = 3 ;
 
+Delete 
+From genre
+WHERE idGenre = 3;
