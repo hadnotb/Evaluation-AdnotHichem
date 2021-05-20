@@ -10,7 +10,7 @@ FROM genre
 WHERE idGenre = 4 ;
 
 -- delete avec les FK
-UPDATE titre
+UPDATE genre
 SET idGenre = NULL
 WHERE idGenre = 3;
 

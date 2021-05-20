@@ -11,7 +11,7 @@ WHERE idAuteur = 4;
 
 -- delete avec les FK
 DELETE 
-FROM titre_genre
+FROM Titre
 WHERE idAuteur = 4;
 
 DELETE 
